@@ -13,3 +13,7 @@ npm i -D typescript @types/node @types/express
 
 3：create typescript compiler configs:
 tsc --init
+
+4: install nodemon:
+npm install -D nodemon
+change the "start" scripts in package.json: "nodemon index.ts"
